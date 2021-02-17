@@ -1,10 +1,12 @@
 {
-  "name": "vite-react-starter",
+  "name": "vite-react-rescript-starter",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "re:build": "bsb -make-world",
+    "re:clean": "bsb -clean-world"
   },
   "dependencies": {
     "@rescript/react": "^0.10.1",
